@@ -1,0 +1,15 @@
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\bin\Debug\net6.0\warm-up-Challanges.exe
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\bin\Debug\net6.0\warm-up-Challanges.deps.json
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\bin\Debug\net6.0\warm-up-Challanges.runtimeconfig.json
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\bin\Debug\net6.0\warm-up-Challanges.dll
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\bin\Debug\net6.0\ref\warm-up-Challanges.dll
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\bin\Debug\net6.0\warm-up-Challanges.pdb
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\warm-up-Challanges.csproj.AssemblyReference.cache
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\warm-up-Challanges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\warm-up-Challanges.AssemblyInfoInputs.cache
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\warm-up-Challanges.AssemblyInfo.cs
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\warm-up-Challanges.csproj.CoreCompileInputs.cache
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\warm-up-Challanges.dll
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\ref\warm-up-Challanges.dll
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\warm-up-Challanges.pdb
+C:\Users\bauti\source\interview-prep\hackerank\warm-up-challanges\obj\Debug\net6.0\warm-up-Challanges.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "warm-up-Challanges/1.0.0": {
+        "runtime": {
+          "warm-up-Challanges.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "warm-up-Challanges/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
