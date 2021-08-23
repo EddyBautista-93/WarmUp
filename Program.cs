@@ -123,6 +123,24 @@ namespace WarmUp
             return valley;
         }
 
+        // Jumping Clouds 
+
+        // There is a new mobile game that starts with consecutively numbered clouds. Some of the clouds are thunderheads and 
+        // others are cumulus. The player can jump on any cumulus cloud having a number that is equal to the number of the current cloud plus 
+        //  or . The player must avoid the thunderheads. Determine the minimum number of jumps it will take to jump from the starting postion 
+        //  to the last cloud. It is always possible to win the game.
+
+        public static int jumpingOnClouds(List<int> c)
+        {
+            int jumps = 0;
+
+            return jumps;
+
+        }
+
+
+
+
         static void Main(string[] args)
         {
             //SockMerchant 
@@ -131,9 +149,9 @@ namespace WarmUp
             // sockMerchant(testLength, testList);
 
             //Counting Valleys
-            int testSteps = 12;
-            string testPath = "DDUUDDUDUUUD";
-            countingValleys(testSteps, testPath);
+            // int testSteps = 12;
+            // string testPath = "DDUUDDUDUUUD";
+            // countingValleys(testSteps, testPath);
         }
     }
 }
