@@ -133,9 +133,21 @@ namespace WarmUp
         public static int jumpingOnClouds(List<int> c)
         {
             int jumps = 0;
+            if (c[0] == 0)
+            {
+                jumps = -1;
+            }
+            int listLength = c.Count;
 
+            for (var i = 0; i < listLength; i++)
+            {
+                if (c[i] == 0)
+                {
+                    jumps++;
+                }               
+            }
+            Console.WriteLine(jumps);
             return jumps;
-
         }
 
 
@@ -152,6 +164,10 @@ namespace WarmUp
             // int testSteps = 12;
             // string testPath = "DDUUDDUDUUUD";
             // countingValleys(testSteps, testPath);
+
+            //Jumping Clouds 
+            List<int> testList = new List<int> { 0, 1, 0, 0, 0, 1, 0 };
+            jumpingOnClouds(testList);
         }
     }
 }
