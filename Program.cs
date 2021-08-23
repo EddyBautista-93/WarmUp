@@ -133,25 +133,28 @@ namespace WarmUp
         public static int jumpingOnClouds(List<int> c)
         {
             int jumps = 0;
-            if (c[0] == 0)
-            {
-                jumps = -1;
-            }
             int listLength = c.Count;
 
             for (var i = 0; i < listLength; i++)
             {
-                if (c[i] == 0)
+                if (i + 1 < listLength)
                 {
-                    jumps++;
-                }               
+                    if (i + 2 < listLength && c[i + 1] == 0 && c[i + 2] == 0)
+                    {
+                        jumps += 1;
+                        i += 1;
+                    }
+
+                    else if (c[i + 1] == 0) jumps += 1;
+                    else if (c[i + 1] == 1)
+                    {
+                        jumps += 1;
+                        i += 1;
+                    }
+                }
             }
-            Console.WriteLine(jumps);
             return jumps;
         }
-
-
-
 
         static void Main(string[] args)
         {
