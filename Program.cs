@@ -123,7 +123,7 @@ namespace WarmUp
             return valley;
         }
 
-        // Jumping Clouds 
+        // Q3.Jumping Clouds 
 
         // There is a new mobile game that starts with consecutively numbered clouds. Some of the clouds are thunderheads and 
         // others are cumulus. The player can jump on any cumulus cloud having a number that is equal to the number of the current cloud plus 
@@ -156,6 +156,53 @@ namespace WarmUp
             return jumps;
         }
 
+        // Q.4 Repeating String
+        //         There is a string, , of lowercase English letters that is repeated infinitely many times. Given an integer, , find and print the number of letter a's in the first  letters of the infinite string.
+
+        // Example
+
+
+        // The substring we consider is , the first  characters of the infinite string. There are  occurrences of a in the substring.
+
+        // Function Description
+
+        
+
+        // repeatedString has the following parameter(s):
+
+        // s: a string to repeat
+        // n: the number of characters to consider
+        // Returns
+
+        // int: the frequency of a in the substring
+        // Input Format
+
+        // The first line contains a single string, .
+        // The second line contains an integer, .
+
+        // Constraints
+
+        // For  of the test cases, .
+        // Sample Input
+
+        // Sample Input 0
+
+        // aba
+        // 10
+        // Sample Output 0
+
+        // 7
+        // Explanation 0
+        // The first  letters of the infinite string are abaabaabaa. Because there are  a's, we return .
+
+        public static long repeatedString(string s, long n)
+        {
+            int frequencyOfA = 0;
+
+            return frequencyOfA;
+
+        }
+
         static void Main(string[] args)
         {
             //SockMerchant 
@@ -169,8 +216,13 @@ namespace WarmUp
             // countingValleys(testSteps, testPath);
 
             //Jumping Clouds 
-            List<int> testList = new List<int> { 0, 1, 0, 0, 0, 1, 0 };
-            jumpingOnClouds(testList);
+            // List<int> testList = new List<int> { 0, 1, 0, 0, 0, 1, 0 };
+            // jumpingOnClouds(testList);
+
+            //Repeated string 
+            string testString = "aba";
+            long testNum = 7;
+            repeatedString(testString, testNum);
         }
     }
 }
