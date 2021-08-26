@@ -1,5 +1,7 @@
 ﻿using System;
-using System.Collections.Generic; // add to use List 
+using System.Collections.Generic;
+using System.Text;
+using System.Linq;
 
 
 namespace WarmUp
@@ -166,7 +168,7 @@ namespace WarmUp
 
         // Function Description
 
-        
+
 
         // repeatedString has the following parameter(s):
 
@@ -197,10 +199,34 @@ namespace WarmUp
 
         public static long repeatedString(string s, long n)
         {
-            int frequencyOfA = 0;
+            var len = s.Length;
+            if (len == 1 && s == "a") return n; // if the string is just one a/
+            var remainder = n / len;
+            StringBuilder x = new StringBuilder("");
+            for (int i = 0; i < remainder; i++)
+            {
+                x.Append(s);
+            }
+            if (n % len > 0)
+            {
+                x.Append(s.Substring(0, (int)n % len));
+            }
 
-            return frequencyOfA;
 
+            return x.ToString().Count(p => p == 'a');
+
+        }
+
+        // shorter way to do repeated string
+        public static long repeatedStringShort(string s, long n)
+        {
+
+            var inSingle = s.Count(x => x == 'a');
+            var full = n / s.Length;
+            var rest = n % s.Length;
+            var inRest = s.Substring(0, (int)rest).Count(x => x == 'a');
+            var result = (inSingle * full) + inRest;
+            return result;
         }
 
         static void Main(string[] args)

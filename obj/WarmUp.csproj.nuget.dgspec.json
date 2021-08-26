@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\warmup\\WarmUp.csproj": {}
+    "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\WarmUp\\WarmUp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\warmup\\WarmUp.csproj": {
+    "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\WarmUp\\WarmUp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\warmup\\WarmUp.csproj",
+        "projectUniqueName": "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\WarmUp\\WarmUp.csproj",
         "projectName": "WarmUp",
-        "projectPath": "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\warmup\\WarmUp.csproj",
+        "projectPath": "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\WarmUp\\WarmUp.csproj",
         "packagesPath": "C:\\Users\\bauti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\warmup\\obj\\",
+        "outputPath": "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\WarmUp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

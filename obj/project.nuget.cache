@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1pFVdeYMUftYXptgARC8T3ivaYuiYlsE66cTkLUfNCXFIwEhaejV5xT7jf8b+n71RURs3FmEekxIRUyHTVaW+A==",
+  "dgSpecHash": "0v1QlzocfTZCLuan/BHCaAT+rHkRim2iM0qdZwwwk8xDvCy7cFVruxTxGOw7/CEAOcNUUyLgIIvLwc7X7HskYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\warmup\\WarmUp.csproj",
+  "projectFilePath": "C:\\Users\\bauti\\source\\interview-prep\\hackerank\\WarmUp\\WarmUp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
